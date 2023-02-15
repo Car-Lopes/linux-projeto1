@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "Criando diretorios...."
+echo "Criando diretorios..."
 
 mkdir /public
 mkdir /adm
 mkdir /ven
 mkdir /sec
 
-echo "Criando grupos de usuarios...."
+echo "Criando grupos de usuarios..."
 
 groupadd GRP_ADM
 groupadd GRP_VEN
